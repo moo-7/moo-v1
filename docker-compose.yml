@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  moo:
+    image: lrmn/moo:latest
+    container_name: moo
+    restart: always
+    environment:
+      TOKEN: "your_token"
+      PREFIX: "moo"
+      PLAYING: "your heart "
+      EMBEDS_COLOR: "#FFFFFF"
+      DEFAULT_VOLUME: 50
+      MAX_VOLUME: 100
+      AUTO_LEAVE: "true"
+      AUTO_LEAVE_COOLDOWN: 5000
+      DISPLAY_VOICE_STATE: "true"
+    volumes:
+      - ./node-list.json:/moo/node-list.json
+      - ./blacklist.json:/moo/blacklist.json
+    ports:
+      - 33333:33333

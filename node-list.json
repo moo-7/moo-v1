@@ -1,0 +1,23 @@
+[
+    {
+        "id": "Main",
+        "hostname": "your_host_lavalink",
+        "port": 80,
+        "secure": false,
+        "password": "madebytragic"
+    },
+    {
+        "id": "Main1",
+        "hostname": "your_host_lavalink",
+        "port": 80,
+        "secure": false,
+        "password": "madebytragic"
+    },
+    {
+        "id": "Main2",
+        "hostname": "your_host_lavalink",
+        "port": 80,
+        "secure": false,
+        "password": "madebytragic"
+    }
+]
